@@ -30,3 +30,4 @@ def update(frame):
     return ax
 ani = FuncAnimation(fig, update, frames=data['year'].unique())
 ani.save('/content/gapminder-1.gif', fps=1)
+plt.show()
